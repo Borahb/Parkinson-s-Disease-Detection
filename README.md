@@ -11,10 +11,13 @@ This is a ML model to classify whether a cell is infected with  Parkinsons Disea
 
 After completion of the Machine Learning project, the ML model need to deploy in an application. To deploy, the ML model need to save it first. To save the Machine Learning project we can use the pickle or joblib package.Here I have used pickle package of python to load and save the model.The pickle or joblib package saves the model to that address, later on to deploy the model we can simply load the model through the pickle file that I have included here or you can make by running the code.
 
-# Implimentation
+## Implimentation
 1. Dataset UCI-ML
 2. Used 22 features to classify
 3. Used 0 for  Healthy and 1 for PD(Parkinsons Disease)
 
-# Execution
-Run the file 
+## Execution
+Run the file DiseaseDetection.py
+
+## Licence
+This project is licensed under the MIT License - see the LICENSE.txt file for details
